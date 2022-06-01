@@ -1,0 +1,128 @@
+/* fichier css*/
+
+body
+{
+	margin: 1em 0 ;
+	padding: 0 ;
+	text-align: center ;
+	background: #FFB233;
+}
+
+div#conteneur
+{
+	width: 70em ;
+	margin: 0 auto ;
+	text-align: left ;
+	border: 0.2em solid #000 ;
+	background: #fff ;
+}
+
+
+header 
+{
+	
+	display: block ;
+	background: white ;
+	text-align:center;
+    	color:black;
+}
+
+
+
+ul#menu
+{
+	height: 3em ;
+	margin: 0 ;
+	padding: 0 ;
+	background: #FFB233;
+	list-style-type: none ;
+}
+		
+ul#menu li
+{
+	float: left ;
+	text-align: center ;
+}
+
+ul#menu li a
+{
+	width: 13em ;
+	line-height: 2em ;
+	font-size: 1em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: #fff ;
+	display: block ;
+	text-decoration: none ;
+	border-right: 2px solid #FFB233;
+}
+
+
+div#contenu
+{
+	padding: 0 2em 0 6em ;
+}
+
+div#contenu h2
+{
+	padding-left: 2em ;
+	line-height: 1.5em ;
+	font-size: 1.4em ;
+	color: #8DB7D7 ;
+	border-bottom: 1px solid #FFB233;
+}
+
+div#contenu h3
+{
+	margin-left: 1.5em ;
+    padding-left: 1.5em ;
+    border-bottom: 0.1em solid #8DB7D7 ;
+    border-left: 0.05em solid #8DB7D7 ;
+    color: #8DB7D7 ;
+}
+
+div#contenu p
+{
+	text-align: justify ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+}
+
+footer
+{
+    display: block ;
+    background: #FFB233;
+    color:#FFF;
+}
+
+p#footer
+{
+	margin: 0 ;
+	padding-right: 1em ;
+	line-height: 2em ;
+	text-align: right ;
+	
+}
+
+div#footerlink
+{
+	margin: 0 ;
+	padding-left: 1em ;
+	line-height: 1.5em ;
+	text-align: left ;
+	
+}
+
+.annee
+{
+	text-align: right;
+	padding-right : 5em;
+}
+
+fieldset {
+	text-align: middle;
+	padding-left: 3em;
+	margin-bottom: 15px;
+	padding: 10px;
+  }
+
